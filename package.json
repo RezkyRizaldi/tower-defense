@@ -1,0 +1,38 @@
+{
+	"name": "tower-defense",
+	"displayName": "Tower Defense",
+	"version": "1.0.0",
+	"description": "Simple Tower Defense game with JavaScript and HTML5 Canvas.",
+	"main": "index.js",
+	"scripts": {
+		"dev": "npx tailwindcss -i ./src/assets/css/index.css -o ./dist/index.css --watch"
+	},
+	"keywords": [
+		"tower-defense",
+		"javascript",
+		"html5",
+		"canvas"
+	],
+	"author": "Chris Courses",
+	"homepage": "https://github.com/RezkyRizaldi/tower-defense",
+	"bugs": {
+		"url": "https://github.com/RezkyRizaldi/tower-defense/issues",
+		"email": "rezkyrizaldi30@gmail.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/RezkyRizaldi/tower-defense.git"
+	},
+	"license": "MIT",
+	"readme": "https://github.com/RezkyRizaldi/tower-defense#readme",
+	"preview": true,
+	"publisher": "Muhamad Rezky Rizaldi",
+	"markdown": "github",
+	"devDependencies": {
+		"autoprefixer": "^10.4.7",
+		"postcss": "^8.4.14",
+		"prettier": "^2.7.1",
+		"prettier-plugin-tailwindcss": "^0.1.12",
+		"tailwindcss": "^3.1.6"
+	}
+}
